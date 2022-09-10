@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 5;
+    right: 0;
+   
+    
+    background-color: rgb(15, 14, 14);
+    color: rgb(133, 92, 92);
+    font-family: 'Exo 2', sans-serif;
+    padding: 25px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 25px;
+
+    
+  }
+  .project-tile{
+    text-transform: inherit;
+    text-decoration: 4px solid;
+  }
+  #welcome-section{
+    padding: 75px;
+  }
+  a,#project-link{
+    text-decoration: none;
+  }
+  a:hover{
+    color: beige;
+    font-size: 20px;
+
+  }
+  #about{
+    text-align: center;
+  }
